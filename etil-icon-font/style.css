@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'etil';
+  src:  url('fonts/etil.eot?6btp8a');
+  src:  url('fonts/etil.eot?6btp8a#iefix') format('embedded-opentype'),
+    url('fonts/etil.ttf?6btp8a') format('truetype'),
+    url('fonts/etil.woff?6btp8a') format('woff'),
+    url('fonts/etil.svg?6btp8a#etil') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'etil' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-delete-chart:before {
+  content: "\e91b";
+}
+.icon-icon:before {
+  content: "\e91c";
+}
+.icon-saved-dataset:before {
+  content: "\e91d";
+}
+.icon-graph:before {
+  content: "\e91a";
+}
+.icon-circle:before {
+  content: "\e917";
+}
+.icon-default-value-icon:before {
+  content: "\e918";
+}
+.icon-tooltip-icon:before {
+  content: "\e919";
+}
+.icon-default-value:before {
+  content: "\e914";
+}
+.icon-feedback:before {
+  content: "\e916";
+}
+.icon-tooltip:before {
+  content: "\e915";
+}
+.icon-address:before {
+  content: "\e90e";
+}
+.icon-delete:before {
+  content: "\e90f";
+}
+.icon-email:before {
+  content: "\e910";
+}
+.icon-phone:before {
+  content: "\e911";
+}
+.icon-pin:before {
+  content: "\e912";
+}
+.icon-spinner:before {
+  content: "\e913";
+}
+.icon-edit:before {
+  content: "\e90d";
+}
+.icon-check:before {
+  content: "\e90b";
+}
+.icon-uncheck:before {
+  content: "\e90c";
+}
+.icon-info:before {
+  content: "\e900";
+}
+.icon-list:before {
+  content: "\e901";
+}
+.icon-logout:before {
+  content: "\e902";
+}
+.icon-menu:before {
+  content: "\e903";
+}
+.icon-password:before {
+  content: "\e904";
+}
+.icon-share:before {
+  content: "\e905";
+}
+.icon-table:before {
+  content: "\e906";
+}
+.icon-back:before {
+  content: "\e907";
+}
+.icon-download:before {
+  content: "\e908";
+}
+.icon-filter:before {
+  content: "\e909";
+}
+.icon-folder:before {
+  content: "\e90a";
+}

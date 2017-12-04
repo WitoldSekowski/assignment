@@ -1,0 +1,280 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>test assignment</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="etil-icon-font/style.css">
+        <link rel="stylesheet" href="awesomplete.css" />
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.8.16/jquery-ui.js"></script>
+        <script src="Sortable.min.js"></script>
+        <script src="masonry.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header class="top-header">
+            <img class="top-header--left" src="img/logo.png" alt="company logo">
+            <div class="top-header--right">
+                <span class="user-name">Ashraf Ibrahim</span>
+                <nav>
+                    <div class="top-header--dropdown">
+                        Menu
+                        <span class="caret-down"></span>
+                        <ul>
+                            <li>
+                                <a>Profile</a>
+                            </li>
+                            <li>
+                                <a>Settings</a>
+                            </li>
+                            <li>
+                                <a>Log out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <header class="main-header">
+                <div class="main-header--left-wrapper">
+                    <button class="main-header--button icon-menu"></button>
+                    <span class="main-header--caption">Kies thema</span>
+                </div>
+                <div class="list-wrapper">
+                    <input id="myinput" class="main-header--search-input" />
+                    <ul id="listSort">
+                        <li class="list-handle grid-item">
+                            <span class="hide-span">
+                                <span class="icon-table icon"></span>Werkgelegenheid naar Regio</span>
+                            <div class="chart chart-6 chart-list">
+                                <div class="item-content">
+                                    <div class="iframe-handle"></div>
+                                    <div class="iframe-wrapper">
+                                        <iframe src="https://www.smartdataportal.nl/charts/get/268" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="chart--bottom-options">
+                                        <button class="chart-info"></button>
+                                        <div>
+                                            <button class="chart-plus"></button>
+                                            <button class="chart-download"></button>
+                                            <button class="chart-arrow"></button>
+                                            <button class="chart-remove"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-handle grid-item" class="list-handle">
+                            <span class="hide-span">
+                                <span class="icon-table icon"></span>Werkgelegenheid naar Leeftijd</span>
+                            <div class="chart chart-7 chart-list">
+                                <div class="item-content">
+                                    <div class="iframe-handle"></div>
+                                    <div class="iframe-wrapper">
+                                        <iframe src="https://www.smartdataportal.nl/charts/get/265" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="chart--bottom-options">
+                                        <button class="chart-info"></button>
+                                        <div>
+                                            <button class="chart-plus"></button>
+                                            <button class="chart-download"></button>
+                                            <button class="chart-arrow"></button>
+                                            <button class="chart-remove"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-handle grid-item">
+                            <span class="hide-span">
+                                <span class="icon-table icon"></span>
+                                <span class="text-wrapper">% beroepsbevoling naar leeftijd, geslacht, werkgelegenheid
+                                </span>
+                            </span>
+                            <div class="chart chart-8 chart-list">
+                                <div class="item-content">
+                                    <div class="iframe-handle"></div>
+                                    <div class="iframe-wrapper">
+                                        <iframe src="https://www.smartdataportal.nl/charts/get/266 " width="80% " height="400
+                                        " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                                    </div>
+                                    <div class="chart--bottom-options ">
+                                        <button class="chart-info "></button>
+                                        <div>
+                                            <button class="chart-plus "></button>
+                                            <button class="chart-download "></button>
+                                            <button class="chart-arrow "></button>
+                                            <button class="chart-remove "></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-handle grid-item">
+                            <span class="hide-span">
+                                <span class="icon-graph icon"></span>werkgelegenheid Benchmark Amersfoort</span>
+                            <div class="chart chart-9 chart-list">
+                                <div class="item-content">
+                                    <div class="iframe-handle"></div>
+                                    <div class="iframe-wrapper ">
+                                        <iframe src="https://www.smartdataportal.nl/charts/get/267 " width="100% " height="320
+                                        " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                                    </div>
+                                    <div class="chart--bottom-options ">
+                                        <button class="chart-info "></button>
+                                        <div>
+                                            <button class="chart-plus "></button>
+                                            <button class="chart-download "></button>
+                                            <button class="chart-arrow "></button>
+                                            <button class="chart-remove "></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-handle grid-item">
+                            <span class="hide-span">
+                                <span class="icon-saved-dataset icon"></span>werkgelegenheid Benchmark Amersfoort</span>
+                            <div class="chart chart-10 chart-list">
+                                <div class="item-content">
+                                    <div class="iframe-handle "></div>
+                                    <div class="iframe-wrapper ">
+                                        <iframe src="https://www.smartdataportal.nl/charts/get/269 " width="100% " height="400
+                                        " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                                    </div>
+                                    <div class="chart--bottom-options ">
+                                        <button class="chart-info "></button>
+                                        <div>
+                                            <button class="chart-plus "></button>
+                                            <button class="chart-download "></button>
+                                            <button class="chart-arrow "></button>
+                                            <button class="chart-remove "></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="main-content board">
+                <nav class="main-content--left-navigation">
+                    <ul class="nav-list">
+                        <li data-nav-level="0" class="menu">
+                            <a>Werkgelegenheid</a>
+                        </li>
+                        <li data-nav-level="1" class="menu">Mobiliteit</li>
+                        <li data-navigate="2">Vacatures</li>
+                        <li data-navigate="3">Onderwijs</li>
+                        <li data-navigate="4">Verzuim</li>
+                        <li data-navigate="5">Omgeving</li>
+                    </ul>
+                </nav>
+                <div class="main-content--container grid" id="mainSort">
+                    <!-- <div class="add-chart">
+                        <p class="top-caption">Add the chart</p>
+                        <p class="bottom-caption">to your dashboard</p>
+                    </div> -->
+                    <div class="chart chart-1 grid-item">
+                        <div class="item-content">
+                            <div class="iframe-handle"></div>
+                            <div class="iframe-wrapper">
+                                <iframe src="https://www.smartdataportal.nl/charts/get/268" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <div class="chart--bottom-options">
+                                <button class="chart-info"></button>
+                                <div>
+                                    <button class="chart-plus"></button>
+                                    <button class="chart-download"></button>
+                                    <button class="chart-arrow"></button>
+                                    <button class="chart-remove"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart chart-2 grid-item">
+                        <div class="item-content">
+                            <div class="iframe-handle"></div>
+                            <div class="iframe-wrapper">
+                                <iframe src="https://www.smartdataportal.nl/charts/get/265" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <div class="chart--bottom-options">
+                                <button class="chart-info"></button>
+                                <div>
+                                    <button class="chart-plus"></button>
+                                    <button class="chart-download"></button>
+                                    <button class="chart-arrow"></button>
+                                    <button class="chart-remove"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart chart-3 grid-item">
+                        <div class="item-content">
+                            <div class="iframe-handle"></div>
+                            <div class="iframe-wrapper">
+                                <iframe src="https://www.smartdataportal.nl/charts/get/266 " width="80% " height="400
+                        " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                            </div>
+                            <div class="chart--bottom-options ">
+                                <button class="chart-info "></button>
+                                <div>
+                                    <button class="chart-plus "></button>
+                                    <button class="chart-download "></button>
+                                    <button class="chart-arrow "></button>
+                                    <button class="chart-remove "></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart chart-4 grid-item">
+                        <div class="item-content">
+                            <div class="iframe-handle"></div>
+                            <div class="iframe-wrapper ">
+                                <iframe src="https://www.smartdataportal.nl/charts/get/267 " width="100% " height="320
+                        " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                            </div>
+                            <div class="chart--bottom-options ">
+                                <button class="chart-info "></button>
+                                <div>
+                                    <button class="chart-plus "></button>
+                                    <button class="chart-download "></button>
+                                    <button class="chart-arrow "></button>
+                                    <button class="chart-remove "></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart chart-5 grid-item">
+                        <div class="item-content">
+                            <div class="iframe-handle"></div>
+                            <div class="iframe-wrapper ">
+                                <iframe src="https://www.smartdataportal.nl/charts/get/269 " width="100% " height="400
+                        " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                            </div>
+                            <div class="chart--bottom-options ">
+                                <button class="chart-info "></button>
+                                <div>
+                                    <button class="chart-plus "></button>
+                                    <button class="chart-download "></button>
+                                    <button class="chart-arrow "></button>
+                                    <button class="chart-remove "></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-chart chart grid-item add-chart-initial"><p class="top-caption">Add the chart</p><p class="bottom-caption">to your dashboard</p></div>
+                </div>
+            </div>
+            </div>
+        </main>
+    </body>
+
+    </html>
